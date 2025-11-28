@@ -1,0 +1,43 @@
+{
+  "name": "spt-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@carbon/icons-react": "^11.70.0",
+    "@carbon/react": "^1.96.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.5",
+    "@mui/material": "^7.3.5",
+    "@mui/material-nextjs": "^7.3.5",
+    "axios": "^1.13.2",
+    "cookie": "^1.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "next": "16.0.3",
+    "openid-client": "^6.8.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "sass": "^1.94.2",
+    "uuid": "^13.0.0",
+    "node-rsa": "^1.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20",
+    "@types/node-rsa": "^1.1.4",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
